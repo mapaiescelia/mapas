@@ -5,3 +5,6 @@ function test1() {
 function test2() {
     alert("Prueba 2");
 }
+function test3() {
+    alert("Prueba 3");
+}
