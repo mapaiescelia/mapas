@@ -8,3 +8,6 @@ function test2() {
 function test3() {
     alert("Prueba 3");
 }
+function test4() {
+    alert("Prueba 4");   
+}
