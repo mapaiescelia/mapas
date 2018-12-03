@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS mapas
+DROP DATABASE IF EXISTS mapas;
 
 CREATE DATABASE mapas CHARACTER SET utf8;
 
@@ -39,7 +39,7 @@ CREATE TABLE calles(
     nombre VARCHAR(100),
     tipo_via VARCHAR(25) NOT NULL,
     anyo_inicio SMALLINT NOT NULL,
-    anyo_fin SMALLINT NOT NULL
+    anyo_fin SMALLINT NOT NULL,
     punto_top SMALLINT NOT NULL,
     punto_left SMALLINT NOT NULL
 );
