@@ -48,3 +48,9 @@ CREATE TABLE laminas_calles(
     id_lamina INT UNSIGNED,
     id_calle INT UNSIGNED
 );
+
+CREATE TABLE usuarios(
+	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(30),
+    pass VARCHAR(30)
+);
